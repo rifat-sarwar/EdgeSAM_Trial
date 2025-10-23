@@ -47,6 +47,13 @@ package-lock.json
 # Mac
 *DS_Store*
 
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
 # assets
 assets
 
