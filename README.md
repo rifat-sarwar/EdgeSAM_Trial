@@ -1,6 +1,6 @@
 # EdgeSAM
 **Prompt-In-the-Loop Distillation for On-Device Deployment of SAM**
-
+#
 
 [Chong Zhou<sup>1</sup>](https://chongzhou96.github.io/),
 [Xiangtai Li<sup>1</sup>](https://lxtgh.github.io/),
