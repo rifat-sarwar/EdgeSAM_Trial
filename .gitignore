@@ -53,6 +53,12 @@ env/
 ENV/
 .venv/
 .env/
+**/mobile_venv/
+**/venv/
+**/env/
+**/ENV/
+**/.venv/
+**/.env/
 
 # assets
 assets
@@ -62,3 +68,216 @@ output/
 teacher_embed/
 datasets/
 weights/
+
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+pubspec.lock
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/build/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/app/build
+**/android/build
+**/ios/build
+**/macos/build
+**/linux/build
+**/windows/build
+**/web/build
+
+# Flutter specific files
+*.iml
+*.ipr
+*.iws
+.metadata
+analysis_options.yaml
+
+# Flutter iOS
+**/ios/Flutter/AppFrameworkInfo.plist
+**/ios/Flutter/Flutter-Debug.xcconfig
+**/ios/Flutter/Flutter-Release.xcconfig
+**/ios/Flutter/Flutter-Generated.xcconfig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+**/ios/Runner.xcworkspace/xcshareddata/
+
+# Flutter macOS
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/Flutter-Debug.xcconfig
+**/macos/Flutter/Flutter-Release.xcconfig
+**/macos/Flutter/Flutter-Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+**/macos/Runner/GeneratedPluginRegistrant.swift
+**/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+**/macos/Runner.xcworkspace/xcshareddata/
+
+# Flutter Windows
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# Flutter Linux
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# Flutter Web
+**/web/flutter_service_worker.js
+
+# React Native (for future use)
+# React Native Metro
+.metro-health-check*
+.metro-cache/
+
+# React Native Android
+**/android/app/build/
+**/android/build/
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/.idea/
+**/android/*.iml
+**/android/*.hprof
+
+# React Native iOS
+**/ios/build/
+**/ios/Pods/
+**/ios/*.xcworkspace
+**/ios/*.xcuserstate
+**/ios/UserInterfaceState.xcuserstate
+
+# React Native Node modules
+**/node_modules/
+**/yarn.lock
+**/package-lock.json
+
+# React Native Expo
+.expo/
+.expo-shared/
+
+# React Native Flipper
+**/android/app/src/debug/java/com/*/ReactNativeFlipper.java
+**/android/app/src/release/java/com/*/ReactNativeFlipper.java
+
+# React Native Hermes
+**/android/app/src/main/assets/index.android.bundle
+**/android/app/src/main/assets/index.android.map
+
+# React Native Bundle
+**/android/app/src/main/assets/index.android.bundle
+**/android/app/src/main/assets/index.android.map
+**/ios/main.jsbundle
+**/ios/main.jsbundle.map
+
+# React Native Debug
+**/android/app/src/debug/
+**/android/app/src/release/
+**/ios/DerivedData/
+
+# React Native Gradle
+**/android/.gradle/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/settings.gradle
+**/android/build.gradle
+**/android/app/build.gradle
+
+# React Native CocoaPods
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/*.xcworkspace
+**/ios/*.xcuserstate
+**/ios/UserInterfaceState.xcuserstate
+**/ios/DerivedData/
+
+# React Native Watchman
+**/.watchmanconfig
+
+# React Native Buck
+**/buck-out/
+**/.buckd/
+**/.buckconfig.local
+**/.buckconfig.local.bak
+**/buck-out/
+
+# React Native Fastlane
+**/android/fastlane/report.xml
+**/android/fastlane/Preview.html
+**/android/fastlane/screenshots
+**/android/fastlane/test_output
+**/ios/fastlane/report.xml
+**/ios/fastlane/Preview.html
+**/ios/fastlane/screenshots
+**/ios/fastlane/test_output
+
+# React Native Bundle
+**/android/app/src/main/assets/index.android.bundle
+**/android/app/src/main/assets/index.android.map
+**/ios/main.jsbundle
+**/ios/main.jsbundle.map
+
+# React Native Flipper
+**/android/app/src/debug/java/com/*/ReactNativeFlipper.java
+**/android/app/src/release/java/com/*/ReactNativeFlipper.java
+
+# React Native Hermes
+**/android/app/src/main/assets/index.android.bundle
+**/android/app/src/main/assets/index.android.map
+
+# React Native Debug
+**/android/app/src/debug/
+**/android/app/src/release/
+**/ios/DerivedData/
+
+# React Native Gradle
+**/android/.gradle/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/settings.gradle
+**/android/build.gradle
+**/android/app/build.gradle
+
+# React Native CocoaPods
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/*.xcworkspace
+**/ios/*.xcuserstate
+**/ios/UserInterfaceState.xcuserstate
+**/ios/DerivedData/
+
+# React Native Watchman
+**/.watchmanconfig
+
+# React Native Buck
+**/buck-out/
+**/.buckd/
+**/.buckconfig.local
+**/.buckconfig.local.bak
+**/buck-out/
+
+# React Native Fastlane
+**/android/fastlane/report.xml
+**/android/fastlane/Preview.html
+**/android/fastlane/screenshots
+**/android/fastlane/test_output
+**/ios/fastlane/report.xml
+**/ios/fastlane/Preview.html
+**/ios/fastlane/screenshots
+**/ios/fastlane/test_output
